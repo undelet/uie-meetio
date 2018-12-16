@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["es2015", "esnext.asynciterable"],
+    "jsx": "react-native",
+    "strict": true,
+    "types": ["jest"],
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "resolveJsonModule": true
+  }
+}
