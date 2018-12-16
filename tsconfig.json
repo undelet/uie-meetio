@@ -3,10 +3,11 @@
     "target": "es5",
     "lib": ["es2015", "esnext.asynciterable"],
     "jsx": "react-native",
-    "strict": true,
+    "strict": false,
     "types": ["jest"],
     "allowSyntheticDefaultImports": true,
     "sourceMap": true,
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "noImplicitAny": false
   }
 }
